@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry's Lounge | Ice Creams & Desserts in Tirupati</title>
+    <meta name="description" content="Cherry's Lounge offers premium ice creams, sundaes, milkshakes, and desserts. Visit our Tirupati location for sweet moments served fresh!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container glass">
+            <a href="#" class="logo">
+                <i class="ri-heart-3-fill logo-icon"></i>
+                Cherry's Lounge
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Dark Mode">
+                    <i class="ri-moon-line"></i>
+                </button>
+                <a href="#order" class="btn btn-primary">Order Online</a>
+                <button class="mobile-menu-btn icon-btn"><i class="ri-menu-line"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav">
+        <div class="mobile-nav-links">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#menu" class="mobile-link">Menu</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#reviews" class="mobile-link">Reviews</a>
+            <a href="#order" class="mobile-link">Order Online</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text scroll-reveal">
+                <span class="badge glass">Tirupati's Best Cafe</span>
+                <h1>Sweet Moments, <br><span class="text-highlight">Served Fresh</span></h1>
+                <p>Indulge in our premium ice creams, rich sundaes, creamy milkshakes, and aesthetic desserts. A perfect place to relax and enjoy the sweet side of life.</p>
+                <div class="hero-buttons">
+                    <a href="#order" class="btn btn-primary btn-large">Order Now <i class="ri-arrow-right-line"></i></a>
+                    <a href="#menu" class="btn btn-outline btn-large">Explore Menu</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper scroll-reveal delay-1">
+                <div class="blob-bg"></div>
+                <img src="assets/images/cherry_hero_1776595109017.png" alt="Cherry's Lounge Assorted Desserts" class="hero-img glass-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+        <div class="section-header scroll-reveal">
+            <h2>Our Sweet <span class="text-highlight">Menu</span></h2>
+            <p>Crafted with love, best ingredients and a sprinkle of magic.</p>
+        </div>
+        
+        <div class="menu-grid">
+            <!-- Item 1 -->
+            <div class="menu-card glass scroll-reveal">
+                <div class="card-img">
+                    <img src="assets/images/cherry_icecream_1776595157217.png" alt="Signature Ice Cream">
+                    <div class="price-tag glass">₹120</div>
+                </div>
+                <div class="card-content">
+                    <span class="category">Ice Creams</span>
+                    <h3>Berry Splash Scoop</h3>
+                    <p>A gorgeous single scoop of mixed berry and vanilla ice cream.</p>
+                    <button class="add-to-cart btn btn-icon"><i class="ri-add-line"></i></button>
+                </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="menu-card glass scroll-reveal delay-1">
+                <div class="card-img">
+                    <img src="assets/images/cherry_sundae_1776595179739.png" alt="Chocolate Sundae">
+                    <div class="price-tag glass">₹180</div>
+                </div>
+                <div class="card-content">
+                    <span class="category">Sundaes</span>
+                    <h3>Caramel Choco Sundae</h3>
+                    <p>Indulgent chocolate & caramel with whipped cream and cherries.</p>
+                    <button class="add-to-cart btn btn-icon"><i class="ri-add-line"></i></button>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="menu-card glass scroll-reveal delay-2">
+                <div class="card-img">
+                    <img src="assets/images/cherry_milkshake_1776595308597.png" alt="Strawberry Milkshake">
+                    <div class="price-tag glass">₹150</div>
+                </div>
+                <div class="card-content">
+                    <span class="category">Milkshakes</span>
+                    <h3>Strawberry Dream</h3>
+                    <p>Creamy, thick strawberry milkshake decorated with fresh berries.</p>
+                    <button class="add-to-cart btn btn-icon"><i class="ri-add-line"></i></button>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="menu-card glass scroll-reveal delay-3">
+                <div class="card-img">
+                    <img src="assets/images/cherry_dessert_1776595369705.png" alt="Pastel Cake Slice">
+                    <div class="price-tag glass">₹160</div>
+                </div>
+                <div class="card-content">
+                    <span class="category">Desserts</span>
+                    <h3>Pastel Layer Cake</h3>
+                    <p>Aesthetic slice of pastel-colored layer cake with a glossy finish.</p>
+                    <button class="add-to-cart btn btn-icon"><i class="ri-add-line"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section bg-soft">
+        <div class="about-container">
+            <div class="about-image-wrapper scroll-reveal">
+                <div class="image-grid">
+                    <img src="assets/images/cherry_hero_1776595109017.png" alt="Cafe ambiance" class="img-1 glass-img">
+                </div>
+            </div>
+            <div class="about-text scroll-reveal delay-1">
+                <h2>The Story of <span class="text-highlight">Cherry's Lounge</span></h2>
+                <p>Located in the heart of Tirupati, India, Cherry's Lounge started with a simple dream: to bring people together over delightful, high-quality sweet treats. Our passion for aesthetics and taste drives everything we do.</p>
+                <div class="features">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="ri-leaf-line"></i></div>
+                        <div>
+                            <h4>Fresh Ingredients</h4>
+                            <p>We source only the finest, freshest local ingredients.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="ri-wallet-3-line"></i></div>
+                        <div>
+                            <h4>Affordable Pricing</h4>
+                            <p>Premium quality desserts ranging from ₹1 to ₹200.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section">
+        <div class="section-header scroll-reveal">
+            <h2>Loved by <span class="text-highlight">Everyone</span></h2>
+            <div class="rating-display">
+                <span class="rating-number">4.9</span>
+                <div class="stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i>
+                </div>
+                <span class="rating-text">(500+ Reviews)</span>
+            </div>
+        </div>
+
+        <div class="reviews-slider scroll-reveal">
+            <div class="review-card glass">
+                <div class="review-stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                </div>
+                <p class="review-text">"Absolutely the best cafe in Tirupati! The strawberry milkshake is a must-try. Such a cute and aesthetic vibe."</p>
+                <div class="reviewer">
+                    <div class="avatar">AN</div>
+                    <div class="reviewer-info">
+                        <h4>Aarav N.</h4>
+                        <p>Local Guide</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="review-card glass">
+                <div class="review-stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                </div>
+                <p class="review-text">"Amazing place for desserts. The pastel layer cake is heavenly, and prices are very reasonable. Loved the service."</p>
+                <div class="reviewer">
+                    <div class="avatar">SP</div>
+                    <div class="reviewer-info">
+                        <h4>Sneha P.</h4>
+                        <p>Food Blogger</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review-card glass">
+                <div class="review-stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i>
+                </div>
+                <p class="review-text">"The sundae was very rich and delicious. Highly recommend this lounge for hanging out with friends."</p>
+                <div class="reviewer">
+                    <div class="avatar">RV</div>
+                    <div class="reviewer-info">
+                        <h4>Ravi V.</h4>
+                        <p>Regular Customer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order & Contact Section -->
+    <section id="order" class="contact section bg-soft">
+        <div class="contact-grid">
+            <div class="order-panel glass scroll-reveal">
+                <h2>Ready to <span class="text-highlight">Order?</span></h2>
+                <p>Choose how you want to enjoy your treats:</p>
+                <div class="order-options">
+                    <label class="order-option">
+                        <input type="radio" name="orderType" value="dinein" checked>
+                        <span class="option-card">
+                            <i class="ri-restaurant-line"></i>
+                            <span>Dine-In</span>
+                        </span>
+                    </label>
+                    <label class="order-option">
+                        <input type="radio" name="orderType" value="takeaway">
+                        <span class="option-card">
+                            <i class="ri-shopping-bag-3-line"></i>
+                            <span>Takeaway</span>
+                        </span>
+                    </label>
+                    <label class="order-option">
+                        <input type="radio" name="orderType" value="delivery">
+                        <span class="option-card">
+                            <i class="ri-ebike-2-line"></i>
+                            <span>No-Contact Delivery</span>
+                        </span>
+                    </label>
+                </div>
+                <button class="btn btn-primary btn-block btn-large mt-4" onclick="alert('Order online flow started!')">Proceed to Order Online <i class="ri-arrow-right-line"></i></button>
+            </div>
+
+            <div class="location-panel glass scroll-reveal delay-1">
+                <h2>Visit <span class="text-highlight">Us</span></h2>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="ri-map-pin-line"></i>
+                        <p>Cherry's Lounge, Main Road, Tirupati, Andhra Pradesh, India</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="ri-phone-line"></i>
+                        <a href="tel:+918888888888">+91 88888 88888</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="ri-time-line"></i>
+                        <p>Open daily: 11:00 AM - 11:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="map-container glass">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123847.46102146903!2d79.33618175!3d13.6276537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4d4b0f8862d5fd%3A0x8849b82cd60f5451!2sTirupati%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="200" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="location-buttons mt-4">
+                    <a href="https://maps.app.goo.gl/FxmsF3gsu9DvpgqL6" target="_blank" class="btn btn-outline"><i class="ri-direction-line"></i> Get Directions</a>
+                    <a href="tel:+918888888888" class="btn btn-primary"><i class="ri-phone-fill"></i> Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="ri-heart-3-fill logo-icon"></i>
+                    Cherry's Lounge
+                </a>
+                <p>Sweet moments, served fresh. Your favorite aesthetic cafe in Tirupati.</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn glass"><i class="ri-instagram-line"></i></a>
+                    <a href="#" class="social-btn glass"><i class="ri-facebook-fill"></i></a>
+                    <a href="#" class="social-btn glass"><i class="ri-twitter-x-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Cherry's Lounge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
